@@ -9,6 +9,17 @@
 /* ----------- Colors ---------------------------------- */
 /* ----------- end Colors ----------- */
 /* basic css stuff */
+.et_pb_slider .et_pb_slide .et_pb_slide_content .emery-desc-slide-title,
+.et_pb_slider .et_pb_slide .et_pb_slide_content .emery-desc-slide-subtitle {
+  font-weight: 700;
+  line-height: 1.1em; }
+.et_pb_slider .et_pb_slide .et_pb_slide_content .emery-desc-slide-title {
+  font-size: 4.5em;
+  text-transform: none; }
+.et_pb_slider .et_pb_slide .et_pb_slide_content .emery-desc-slide-subtitle {
+  font-size: 1.7em;
+  letter-spacing: 4px; }
+
 #footer-bottom #footer-info {
   width: 100%; }
   #footer-bottom #footer-info .reach-customer-copyright {

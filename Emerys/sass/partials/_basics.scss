@@ -1,1 +1,18 @@
 /* basic css stuff */
+.et_pb_slider .et_pb_slide {
+  .et_pb_slide_content {
+    .emery-desc-slide-title,
+    .emery-desc-slide-subtitle { // both.
+        font-weight: 700;
+        line-height: 1.1em;
+    }
+    .emery-desc-slide-title {
+        font-size: 4.5em;
+        text-transform: none;
+    }
+    .emery-desc-slide-subtitle {
+          font-size: 1.7em;
+          letter-spacing: 4px;
+    }
+  }
+}
