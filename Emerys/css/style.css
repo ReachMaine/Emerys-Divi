@@ -14,12 +14,22 @@
   font-weight: 700;
   line-height: 1.1em; }
 .et_pb_slider .et_pb_slide .et_pb_slide_content .emery-desc-slide-title {
-  font-size: 4.5em;
+  font-size: 80px;
   text-transform: none; }
 .et_pb_slider .et_pb_slide .et_pb_slide_content .emery-desc-slide-subtitle {
-  font-size: 1.7em;
+  font-size: 33px;
   letter-spacing: 4px; }
 
+@media all and (max-width: 980px) {
+  .et_pb_slider .et_pb_slide .et_pb_slide_content .emery-desc-slide-title {
+    font-size: 65px; }
+  .et_pb_slider .et_pb_slide .et_pb_slide_content .emery-desc-slide-subtitle {
+    font-size: 30px; } }
+@media only all and (max-width: 767px) {
+  .et_pb_slider .et_pb_slide .et_pb_slide_content .emery-desc-slide-title {
+    font-size: 50px; }
+  .et_pb_slider .et_pb_slide .et_pb_slide_content .emery-desc-slide-subtitle {
+    font-size: 22px; } }
 #footer-bottom #footer-info {
   width: 100%; }
   #footer-bottom #footer-info .reach-customer-copyright {

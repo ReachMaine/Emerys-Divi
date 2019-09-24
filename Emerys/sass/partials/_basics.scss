@@ -7,12 +7,37 @@
         line-height: 1.1em;
     }
     .emery-desc-slide-title {
-        font-size: 4.5em;
+        font-size: 80px;
         text-transform: none;
     }
     .emery-desc-slide-subtitle {
-          font-size: 1.7em;
+          font-size: 33px;
           letter-spacing: 4px;
+    }
+  }
+}
+@media all and (max-width: 980px) {
+  .et_pb_slider .et_pb_slide {
+    .et_pb_slide_content {
+      .emery-desc-slide-title {
+          font-size: 65px;
+      }
+      .emery-desc-slide-subtitle {
+            font-size: 30px;
+      }
+    }
+  }
+
+}
+@media only all  and (max-width: 767px) {
+  .et_pb_slider .et_pb_slide {
+    .et_pb_slide_content {
+      .emery-desc-slide-title {
+          font-size: 50px;
+      }
+      .emery-desc-slide-subtitle {
+            font-size: 22px;
+      }
     }
   }
 }
