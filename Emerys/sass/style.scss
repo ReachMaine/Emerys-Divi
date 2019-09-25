@@ -11,7 +11,22 @@
 @import "partials/colors";
 @import "partials/basics";
 
-
+#main-footer {
+  #footer-widgets {
+    .footer-widget {
+      .widget_nav_menu {
+        ul.menu {
+          li.menu-item:before {
+            content: none;
+          }
+          li.menu-item {
+            // padding-left: 0px;
+          }
+        }
+      }
+    }
+  }
+}
 
 #footer-bottom {
   #footer-info {

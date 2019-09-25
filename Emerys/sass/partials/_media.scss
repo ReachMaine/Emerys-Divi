@@ -2,6 +2,12 @@
 // Divi breakpts
 // mobile menu shows at max-width:
 
+@media only screen and (min-width: 981px) {
+  .et-fixed-header #et-top-navigation #top-menu li.emerys-book-button a,
+  #top-menu-nav #et-top-navigation nav>ul>li.emerys-book-button>a {
+    color: white!important;
+  }
+}
 @media all and (max-width: 980px) { // nav menu,  woo & footer widgtes
   .reach-row-stackorder {
 		display: -webkit-box;
@@ -25,7 +31,16 @@
 
 }
 @media only all  and (max-width: 767px) {
-
+  #main-footer { // see media for phone styling.
+    #footer-widgets {
+      .footer-widget {
+        .fwidget {
+          text-align: center;
+          width: 100%;
+        }
+      }
+    }
+  }
 }
 
 @media all and (max-width: 479px) {

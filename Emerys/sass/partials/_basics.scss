@@ -1,4 +1,5 @@
 /* basic css stuff */
+// slider text
 .et_pb_slider .et_pb_slide {
   .et_pb_slide_content {
     .emery-desc-slide-title,
@@ -38,6 +39,33 @@
       .emery-desc-slide-subtitle {
             font-size: 22px;
       }
+    }
+  }
+}
+// emerys-book-button (in main menu & footer widgets)
+  ul.nav, ul.menu { // both buttons
+    li.emerys-book-button a {
+      //padding: 6px 18px;
+      background-color: $emerys-gold;
+      color: white!important;
+      padding: 8px 16px!important;
+    }
+    li.emerys-book-button a:hover {
+      background-color: $emerys-black;
+    }
+  }
+
+#top-menu-nav {
+  ul.nav { // only top-menu button
+    li.emerys-book-button a {
+      margin-top: -8px; // put back where belongs
+    }
+  }
+}
+#main-footer {
+  ul.menu { // just footer
+    li.emerys-book-button {
+      padding-left: 0px;
     }
   }
 }
