@@ -46,15 +46,13 @@ ul.nav li.emerys-book-button a:hover, ul.menu li.emerys-book-button a:hover {
 #main-footer #footer-widgets .footer-widget .widget_nav_menu ul.menu li.menu-item:before {
   content: none; }
 
-#footer-bottom #footer-info {
-  width: 100%; }
-  #footer-bottom #footer-info .reach-customer-copyright {
-    float: left; }
-  #footer-bottom #footer-info .reach-branding {
-    float: right; }
-    #footer-bottom #footer-info .reach-branding a:before {
-      content: url("images/reach-favicon.png");
-      padding-right: 4px; }
+#footer-bottom #footer-info .reach-customer-copyright {
+  float: left; }
+#footer-bottom #footer-info .reach-branding {
+  float: right; }
+  #footer-bottom #footer-info .reach-branding a:before {
+    content: url("images/reach-favicon.png");
+    padding-right: 4px; }
 
 /* **** media **** */
 @media only screen and (min-width: 981px) {
