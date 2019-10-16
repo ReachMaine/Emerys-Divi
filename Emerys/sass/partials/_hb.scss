@@ -1,0 +1,65 @@
+/* styling for the hb plugin */
+// the search form & change search...
+form.hb-booking-search-form { // both vertical & horizontal forms of the form
+
+  .hb-search-fields-and-submit .hb-search-submit-wrapper.hb-search-button-wrapper,
+  .hb-searched-summary .hb-change-search-wrapper.hb-search-button-wrapper    {
+      input { // the button
+          background-color: #31312c;
+          color: white;
+          font-size: 18px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          border: 0px;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+      }
+      input:hover {
+        background-color: $emerys-gold;
+      }
+  }
+}
+// the "book it danno" form & confirm BOOK NOW
+.hb-booking-details-form .hb-confirm-area .hb-confirm-button,
+.hbook-wrapper-booking-form .hb-accom-list .hb-select-accom-wrapper .hb-select-accom {
+    input { // the button
+        background-color: $emerys-cerulean;
+        color: white;
+        font-size: 18px;
+        padding: 10px 20px;
+        border: 0px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+
+    }
+    input:hover {
+      background-color: $emerys-gold;
+    }
+}
+
+// search form horizontal version (displays at desktop)
+form.hb-booking-search-form.hb-horizontal-search-form {
+  .hb-search-fields-and-submit {
+    .hb-search-button-wrapper { // submit button wrapper
+      input { // the button
+        margin-top: -10px;
+      }
+    }
+  }
+}
+// the search form vertical version, displays at phone...
+form.hb-booking-search-form.hb-vertical-search-form {
+  .hb-search-fields-and-submit {
+    .hb-change-search-wrapper.hb-search-button-wrapper,
+    .hb-search-submit-wrapper.hb-search-button-wrapper { // submit button wrapper
+      input { // the button
+        float: right;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 981px) {
+  .hb-booking-details-form {
+    padding-top: 100px; // s.t. sticky header doesnt cover form when scrolls to it.
+  }
+}

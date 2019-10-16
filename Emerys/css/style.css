@@ -46,6 +46,44 @@ ul.nav li.emerys-book-button a:hover, ul.menu li.emerys-book-button a:hover {
 #main-footer ul.menu li.emerys-book-button {
   padding-left: 0px; }
 
+/* styling for the hb plugin */
+form.hb-booking-search-form .hb-search-fields-and-submit .hb-search-submit-wrapper.hb-search-button-wrapper input,
+form.hb-booking-search-form .hb-searched-summary .hb-change-search-wrapper.hb-search-button-wrapper input {
+  background-color: #31312c;
+  color: white;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0px;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+form.hb-booking-search-form .hb-search-fields-and-submit .hb-search-submit-wrapper.hb-search-button-wrapper input:hover,
+form.hb-booking-search-form .hb-searched-summary .hb-change-search-wrapper.hb-search-button-wrapper input:hover {
+  background-color: #d0ae5e; }
+
+.hb-booking-details-form .hb-confirm-area .hb-confirm-button input,
+.hbook-wrapper-booking-form .hb-accom-list .hb-select-accom-wrapper .hb-select-accom input {
+  background-color: #3F64F9;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 0px;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+.hb-booking-details-form .hb-confirm-area .hb-confirm-button input:hover,
+.hbook-wrapper-booking-form .hb-accom-list .hb-select-accom-wrapper .hb-select-accom input:hover {
+  background-color: #d0ae5e; }
+
+form.hb-booking-search-form.hb-horizontal-search-form .hb-search-fields-and-submit .hb-search-button-wrapper input {
+  margin-top: -10px; }
+
+form.hb-booking-search-form.hb-vertical-search-form .hb-search-fields-and-submit .hb-change-search-wrapper.hb-search-button-wrapper input,
+form.hb-booking-search-form.hb-vertical-search-form .hb-search-fields-and-submit .hb-search-submit-wrapper.hb-search-button-wrapper input {
+  float: right; }
+
+@media only screen and (min-width: 981px) {
+  .hb-booking-details-form {
+    padding-top: 100px; } }
 #main-footer #footer-widgets .footer-widget .widget_nav_menu ul.menu li.menu-item:before {
   content: none; }
 
