@@ -40,6 +40,9 @@ ul.nav li.emerys-book-button a:hover, ul.menu li.emerys-book-button a:hover {
 #top-menu-nav ul.nav li.emerys-book-button a {
   margin-top: -8px; }
 
+.et_pb_filterable_portfolio .et_pb_portfolio_filters ul li a {
+  border: 0px; }
+
 #main-footer ul.menu li.emerys-book-button {
   padding-left: 0px; }
 

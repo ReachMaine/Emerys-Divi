@@ -62,6 +62,18 @@
     }
   }
 }
+// divi modules
+.et_pb_filterable_portfolio { // portfolio modules
+  .et_pb_portfolio_filters { // div around filters
+    ul li {
+      a {
+        border: 0px;
+      }
+    }
+
+  }
+}
+
 #main-footer {
   ul.menu { // just footer
     li.emerys-book-button {
