@@ -67,10 +67,16 @@
   .et_pb_portfolio_filters { // div around filters
     ul li {
       a {
-        border: 0px; // no border around the filters
+        //border: 0px; // no border around the filters
       }
     }
 
+  }
+}
+// gallery popup - disable filename showing in popup
+.mfp-bottom-bar {
+  .mfp-title {
+    display: none;
   }
 }
 

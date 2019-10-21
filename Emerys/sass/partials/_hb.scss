@@ -18,6 +18,12 @@ form.hb-booking-search-form { // both vertical & horizontal forms of the form
         background-color: $emerys-gold;
       }
   }
+  .hb-search-fields-and-submit {
+    .hb-search-no-result {
+      color: $emerys-cerulean;
+      text-align: center;
+    }
+  }
 }
 // the "book it danno" form & confirm BOOK NOW
 .hb-booking-details-form .hb-confirm-area .hb-confirm-button,
@@ -36,6 +42,34 @@ form.hb-booking-search-form { // both vertical & horizontal forms of the form
       background-color: $emerys-gold;
     }
 }
+.hbook-wrapper-booking-form .hb-accom-list {
+  padding-top: 40px;
+  .hb-search-result-title-section {
+    p { // we found 8 accommodnations...
+      color: $emerys-cerulean;
+      text-align: center;
+      font-size: 1.4em;
+
+    }
+    .hb-title.hb-title-select { // select your accommodation
+      color: $emerys-cerulean;
+      text-align: center;
+      font-size: 1.2em;
+      font-style: italic;
+
+    }
+  }
+  .hb-accom.hb-accom-selected {
+      border: 3px solid $emerys-cerulean;
+      background-color: white;
+  }
+  .hb-accom-choice.hb-accom-single-choice {
+    .hb-accom.hb-accom-selected {
+      padding-left: 20px;
+    }
+  }
+}
+
 
 // search form horizontal version (displays at desktop)
 form.hb-booking-search-form.hb-horizontal-search-form {

@@ -40,8 +40,8 @@ ul.nav li.emerys-book-button a:hover, ul.menu li.emerys-book-button a:hover {
 #top-menu-nav ul.nav li.emerys-book-button a {
   margin-top: -8px; }
 
-.et_pb_filterable_portfolio .et_pb_portfolio_filters ul li a {
-  border: 0px; }
+.mfp-bottom-bar .mfp-title {
+  display: none; }
 
 #main-footer ul.menu li.emerys-book-button {
   padding-left: 0px; }
@@ -60,6 +60,9 @@ form.hb-booking-search-form .hb-searched-summary .hb-change-search-wrapper.hb-se
 form.hb-booking-search-form .hb-search-fields-and-submit .hb-search-submit-wrapper.hb-search-button-wrapper input:hover,
 form.hb-booking-search-form .hb-searched-summary .hb-change-search-wrapper.hb-search-button-wrapper input:hover {
   background-color: #d0ae5e; }
+form.hb-booking-search-form .hb-search-fields-and-submit .hb-search-no-result {
+  color: #3F64F9;
+  text-align: center; }
 
 .hb-booking-details-form .hb-confirm-area .hb-confirm-button input,
 .hbook-wrapper-booking-form .hb-accom-list .hb-select-accom-wrapper .hb-select-accom input {
@@ -74,6 +77,23 @@ form.hb-booking-search-form .hb-searched-summary .hb-change-search-wrapper.hb-se
 .hbook-wrapper-booking-form .hb-accom-list .hb-select-accom-wrapper .hb-select-accom input:hover {
   background-color: #d0ae5e; }
 
+.hbook-wrapper-booking-form .hb-accom-list {
+  padding-top: 40px; }
+  .hbook-wrapper-booking-form .hb-accom-list .hb-search-result-title-section p {
+    color: #3F64F9;
+    text-align: center;
+    font-size: 1.4em; }
+  .hbook-wrapper-booking-form .hb-accom-list .hb-search-result-title-section .hb-title.hb-title-select {
+    color: #3F64F9;
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic; }
+  .hbook-wrapper-booking-form .hb-accom-list .hb-accom.hb-accom-selected {
+    border: 3px solid #3F64F9;
+    background-color: white; }
+  .hbook-wrapper-booking-form .hb-accom-list .hb-accom-choice.hb-accom-single-choice .hb-accom.hb-accom-selected {
+    padding-left: 20px; }
+
 form.hb-booking-search-form.hb-horizontal-search-form .hb-search-fields-and-submit .hb-search-button-wrapper input {
   margin-top: -10px; }
 
@@ -84,6 +104,22 @@ form.hb-booking-search-form.hb-vertical-search-form .hb-search-fields-and-submit
 @media only screen and (min-width: 981px) {
   .hb-booking-details-form {
     padding-top: 100px; } }
+/* gravity forms styling */
+.gform_wrapper .gform_fields .gfield.hide-label label.gfield_label {
+  display: none; }
+.gform_wrapper .gform_fields .gfield.hide-label .ginput_complex label {
+  display: none; }
+.gform_wrapper .gform_footer input[type=submit] {
+  color: white;
+  padding: 6px 20px;
+  border-width: 0px;
+  font-size: 20px !important;
+  text-align: center;
+  cursor: pointer;
+  background-color: #31312c; }
+.gform_wrapper .gform_footer input[type=submit]:hover {
+  background-color: #d0ae5e; }
+
 #main-footer #footer-widgets .footer-widget .widget_nav_menu ul.menu li.menu-item:before {
   content: none; }
 
@@ -116,7 +152,19 @@ form.hb-booking-search-form.hb-vertical-search-form .hb-search-fields-and-submit
     .reach-row-stackorder .reach-first-on-mobile {
       -webkit-order: 1;
       order: 1; } }
+@media only all and (min-width: 768px) {
+  .et_pb_filterable_portfolio .et_pb_portfolio_filters ul li a {
+    border: 0px; } }
 @media only all and (max-width: 767px) {
+  .et_pb_filterable_portfolio .et_pb_portfolio_filters ul li a {
+    border-bottom-width: 2px;
+    margin-top: 0px; }
+
   #main-footer #footer-widgets .footer-widget .fwidget {
     text-align: center;
     width: 100%; } }
+@media all and (max-width: 430px) {
+  .et_pb_column .et_pb_filterable_portfolio .et_pb_portfolio_filters ul li {
+    width: 100%; }
+  .et_pb_column .et_pb_filterable_portfolio .et_pb_portfolio_filters ul li:not(:first-child) a {
+    border-top: 0px; } }

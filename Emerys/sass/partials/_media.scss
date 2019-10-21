@@ -7,6 +7,7 @@
   #top-menu-nav #et-top-navigation nav>ul>li.emerys-book-button>a {
     color: white!important;
   }
+
 }
 @media all and (max-width: 980px) { // nav menu,  woo & footer widgtes
   .reach-row-stackorder {
@@ -30,7 +31,30 @@
 @media only screen and (max-width: 960px) {
 
 }
+@media only all  and (min-width: 768px) {
+  // divi modules
+  .et_pb_filterable_portfolio { // portfolio modules
+    .et_pb_portfolio_filters { // div around filters
+      ul li {
+        a {
+          border: 0px; // no border around the filters
+        }
+      }
+    }
+  }
+}
 @media only all  and (max-width: 767px) {
+  // divi modules
+  .et_pb_filterable_portfolio { // portfolio modules
+    .et_pb_portfolio_filters { // div around filters
+      ul li {
+        a {
+          border-bottom-width: 2px; // no border around the filters
+          margin-top: 0px; // disable the -1 top margin...
+        }
+      }
+    }
+  }
   #main-footer { // see media for phone styling.
     #footer-widgets {
       .footer-widget {
@@ -44,4 +68,18 @@
 }
 
 @media all and (max-width: 479px) {
+}
+@media all and (max-width: 430px) {
+  // divi modules
+
+  .et_pb_column .et_pb_filterable_portfolio { // portfolio modules
+    .et_pb_portfolio_filters { // div around filters
+      ul li {
+        width: 100%;
+      }
+      ul li:not(:first-child) a {
+        border-top: 0px;
+      }
+    }
+  }
 }

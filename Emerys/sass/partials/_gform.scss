@@ -1,5 +1,17 @@
 /* gravity forms styling */
 .gform_wrapper {
+ 	.gform_fields {
+		.gfield.hide-label {
+			label.gfield_label {
+				display: none;
+			}
+			.ginput_complex {
+				label {
+					display: none;
+				}
+			}
+		}
+	}
 	.gform_footer {
 
 		input[type=submit] { //  Submit & save for later  look like buttons on the site.
@@ -9,11 +21,12 @@
 		    font-size: 20px!important;
 		    text-align: center;
 		    cursor: pointer;
-				background-color: $ats_orange;
+				background-color: $emerys-black;
 				//line-height: 1.7em;
 			}
-			.gform_save_link {
-				border-width: 2px;
+			input[type=submit]:hover {
+				background-color: $emerys-gold;
+
 			}
 	} // gform footer
 } // gform wrapper
