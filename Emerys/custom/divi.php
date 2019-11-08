@@ -21,3 +21,12 @@ if ( ! function_exists( 'et_get_footer_credits' ) ) {
   	return et_get_safe_localization( sprintf( $credits_format, $footer_credits, 'div' ) );
   }
 }
+
+function project_posttype_name() {
+  return array(
+      'feeds' => true,
+      'slug' => 'cottages',
+      'with_front' => false,
+    );
+}
+add_filter( 'et_project_posttype_rewrite_args', 'project_posttype_name' );
